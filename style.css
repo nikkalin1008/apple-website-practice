@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7;
+}
+
+/* Navbar */
+
+#top-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    gap: 45px;
+    padding: 0 22px;
+}
+
+#top-navbar a {
+    font-size: 11px;
+    cursor: pointer;
+}
+
+#apple-logo {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+/* Top Content */
+
+#top-content {
+    display: flex;
+}
+
+#top-content-text {
+    margin: 80px 0 80px 140px; /* Top, Right, Bottom, Left */
+    font-size: 43px;
+    font-weight: 500;
+    text-align: left;
+}
+
+#top-content-links {
+    margin: 90px 160px 80px 0;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.top-content-links-item {
+    display: flex;
+    gap: 15px;
+}
+
+#person {
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+#top-content-links span {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-content-links-text {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 4px;
+    flex-direction: column;
+}
+
+/* Product List */
+
+#product-list {
+    display: flex;
+    gap: 30px;
+    padding: 20px 140px;
+    margin-bottom: 60px;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar */
+    cursor: pointer;
+}
+
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 115px; /* Fixed width for each item */
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+.product-item a {
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Middle Text */
+
+.middle-text {
+    padding: 0 140px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+/* Card List */
+
+#card-list {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 0 140px;
+    margin-bottom: 60px;
+    scrollbar-width: none;
+}
+
+.card {
+    flex: 0 0 375px;
+    height: 475px;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer; /* Change cursor to pointer */
+    background-size: cover;
+    background-position: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 8px;
+    background: transparent;
+}
+
+.card-text,
+.card-text * {
+    background-color: transparent !important;
+}
+
+#small-text {
+    color:#b64400;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-left: 21px;
+    margin-bottom: -25px;
+    background-color: transparent !important;
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Button List */
+
+#button-list {
+    display: flex;
+    padding: 0 140px;
+    gap: 13px;
+    margin-bottom: 65px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid #1d1d1f;
+}
+
+/* Bottom */
+
+#bottom-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 225px;
+    font-size: 10.5px;
+    margin-bottom: 10px;
+    color: #0000007a;
+    gap: 8px;
+}
+
+hr {
+    height: 0.5px;
+    margin: 0 225px;
+    border: none;
+    background-color:#aeaeaecb;
+}
+
+#bottom-icon {
+    display: flex;
+    font-size: 11px;
+    padding: 0 225px;
+    margin: 20px 0 20px 0;
+    gap: 8px;
+    color: #000000b8;
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif;
+    align-items: center;
+}
+
+#bottom-text-2 {
+    padding: 0 225px;
+    font-size: 11px;
+    color: #0000007a;
+    margin-bottom: 20px;
+}
+
+#bottom-bar {
+    display: flex;
+    padding: 0 225px;
+    font-size: 11px;
+    margin: 16px 0 17px 0;
+    color: #0000007a;
+    gap: 25px;
+}
+
+#privacy {
+    display: flex;
+    gap: 8px;
+}
+
+#privacy a {
+    cursor: pointer;
+}
+
+#bottom-nav {
+    display: flex;
+    padding: 0 225px;
+    font-size: 11px;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.bottom-nav-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bottom-nav-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.bottom-nav-text a {
+    cursor: pointer;
+    color:#0000007a;
+}
+
+.bottom-nav-text p {
+    font-weight: 475;
+}
