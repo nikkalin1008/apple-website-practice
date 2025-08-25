@@ -180,6 +180,8 @@ button {
     font-size: 12px;
     cursor: pointer;
     border: 1px solid #1d1d1f;
+    color: #1d1d1f;
+    background-color: transparent;
 }
 
 /* Bottom */
